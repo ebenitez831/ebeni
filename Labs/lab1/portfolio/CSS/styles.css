@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color:cyan;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+table{
+    margin: 0px auto;
+}
+
+nav a:hover{
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+                
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby{
+    color: yellow;
+}
+
+h1{
+    font-family: 'Pacifico', cusive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#myPicture, #welcomeText{
+    float: left;
+}
+
+footer{
+    clear: left;
+    font-size: .8em;
+    color: white;
+}

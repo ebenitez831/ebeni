@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href= "CSS/styles.css" rel= "stylesheet" type = "text/css"/>
+    <meta charset = "utf-8" />
+    <title> Esteban Benitez: Personal Website</title>
+    <link href = http://hosting.csumb.edu/laramiguel/cst336/labs/portfolio/styles.css
+    rel = "stylesheet" />
+        
+    <style>
+            
+        body {
+            background-color:black;
+            color:cyan;
+        }
+            
+        header, nav{
+            text-align: center;
+        }
+            
+        nav a{
+            padding: 10px;
+            padding-bottom:4px;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: white;
+        }
+            
+        nav a:hover{
+            border-bottom:2px orange solid;
+            font-size: 2em;
+            transition: .9s;
+                
+        }
+            
+        #myPicture{
+                
+        border-radius: 40px;
+        }
+            
+        #myPicture, #welcomeText{
+            float: left;
+        }
+           
+        #welcomeText{
+               
+            text-align: left;
+            margin: 25px;
+        }
+           
+        footer{
+            clear: left;
+            text-align: center;
+           }
+    </style>
+        
+</head>
+<!-- closing head -->
+
+<!-- This is the body -->
+<!-- This is where we place the content of our website -->
+<body>
+        
+    <header>
+            
+        <h1> Esteban Benitez </h1>
+        <h2> Portfolio       </h2>
+            
+    </header>
+        
+    <hr width = " 50% " />
+        
+    <nav>
+            
+        <a href = "index.html"> Home </a>
+        <a href = "about.html"> About </a>
+        <a href= "contact.html"> Contact </a>
+            
+    </nav>
+        
+    <br  /> <br />
+    
+<main>
+    
+  
+    <figure>
+            
+        <img id = "myPicture" src = "img/me.jpg" alt = "Esteban Benitez's photo"
+        
+    </figure>
+        
+    <div id = "welcomeText">
+
+        <p> Hello! </p>
+        <p> Thank you for visiting my professional portfolio website. </p>
+        <p> I am a Software Engineer and have been recently hired at the Acme Corporation. </p>
+        <p>Feel free to contact me!</p>
+        <p><em>"With ordinary talent and extraordinary perseverance, all things are attainable"</em></p>
+        <p>- Thomas F. Buxton</p>
+
+    </div>
+        
+</main>
+
+    <!-- This is the footer -->
+    <!-- The footer goes inside the body but not always -->
+    <footer>
+            
+        <hr>
+        CST336 Internet Programming. 2018 &copy; Benitez <br />
+        <strong> Disclaimer:</strong>
+        The information in this website is fictitous. It's used for academic purposes.
+            
+        <figure>
+                
+             <img src = "img/csumbLogo.png" alt = "csumb logo"
+                
+        </figure>
+    </footer>
+        
+    <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
