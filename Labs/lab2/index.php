@@ -9,7 +9,7 @@
 <html>
     <head>
         <title> Lab 2: 777 Slot Machine </title>
-        <meta charset = "utf-8" />
+        <!-- <meta charset = "utf-8" /> -->
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
         
         <style>

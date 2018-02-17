@@ -35,7 +35,7 @@
                 }
                 
                 function displayPoints($randomValue1, $randomValue2, $randomValue3){
-                    //echo "div id= 'output'>";
+                    echo "<div id= 'output'>";
                     if($randomValue1 == $randomValue2 && $randomValue2 == $randomValue3){
                         switch($randomValue1){
                             case 0: $totalPoints = 1000;
