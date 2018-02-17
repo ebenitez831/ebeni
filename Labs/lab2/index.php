@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<?php
+
+    include 'inc/functions.php';
+
+?>
+
 <html>
     <head>
         <title> Lab 2: 777 Slot Machine </title>
@@ -13,17 +20,18 @@
     <body>
         
         
+        <div id = main>
+            <?php
+            
+            play();
+            
+            ?>
+            
+            <form>
+                <input type= "submit" value = "spin!"/>
+            </form>
+            
+        </div>
         
-        <?php
-        
-        include 'inc/functions.php';
-        
-        play();
-        
-        ?>
-        
-        <form>
-            <input type= "submit" value = "spin!"/>
-        </form>
     </body>
 </html>
