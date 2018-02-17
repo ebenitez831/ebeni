@@ -1,0 +1,28 @@
+[07-Feb-2018 22:48:11 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:48:11 UTC] PHP Stack trace:
+[07-Feb-2018 22:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:48:13 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:48:13 UTC] PHP Stack trace:
+[07-Feb-2018 22:48:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:48:14 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:48:14 UTC] PHP Stack trace:
+[07-Feb-2018 22:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:48:48 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:48:48 UTC] PHP Stack trace:
+[07-Feb-2018 22:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:49:16 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:49:16 UTC] PHP Stack trace:
+[07-Feb-2018 22:49:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:49:31 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:49:31 UTC] PHP Stack trace:
+[07-Feb-2018 22:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:49:32 UTC] PHP Fatal error:  Call to undefined function random() in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 11
+[07-Feb-2018 22:49:32 UTC] PHP Stack trace:
+[07-Feb-2018 22:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/randomColor.php:0
+[07-Feb-2018 22:59:12 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/ebeni/practice/randomColor.php on line 15
+[12-Feb-2018 23:09:07 UTC] PHP Fatal error:  Call to undefined function pritn_r() in /home/ubuntu/workspace/ebeni/practice/php_arrays.php on line 31
+[12-Feb-2018 23:09:07 UTC] PHP Stack trace:
+[12-Feb-2018 23:09:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/php_arrays.php:0
+[12-Feb-2018 23:11:10 UTC] PHP Fatal error:  Call to undefined function pritn_r() in /home/ubuntu/workspace/ebeni/practice/php_arrays.php on line 39
+[12-Feb-2018 23:11:10 UTC] PHP Stack trace:
+[12-Feb-2018 23:11:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/practice/php_arrays.php:0
