@@ -17,7 +17,7 @@
         
         <header>
             <h1>Memes!</h1>
-            <h6>All images found on: ifunny.co</h6>
+            <h6>All images found on: <a href = "https://ifunny.co"> ifunny.co </a> </h6>
             
         </header>
         
