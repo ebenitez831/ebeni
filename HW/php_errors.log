@@ -1,0 +1,258 @@
+[19-Feb-2018 19:41:29 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:41:29 UTC] PHP Stack trace:
+[19-Feb-2018 19:41:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:41:29 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:41:29 UTC] PHP Stack trace:
+[19-Feb-2018 19:41:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:41:31 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:41:31 UTC] PHP Stack trace:
+[19-Feb-2018 19:41:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:41:31 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:41:31 UTC] PHP Stack trace:
+[19-Feb-2018 19:41:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:41:59 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:00 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:42:00 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:00 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:42:54 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:54 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:42:54 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:54 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:42:57 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:57 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:42:57 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:42:57 UTC] PHP Stack trace:
+[19-Feb-2018 19:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:43:49 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:43:49 UTC] PHP Stack trace:
+[19-Feb-2018 19:43:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:43:49 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:43:49 UTC] PHP Stack trace:
+[19-Feb-2018 19:43:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:50:11 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:50:11 UTC] PHP Stack trace:
+[19-Feb-2018 19:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:50:11 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:50:11 UTC] PHP Stack trace:
+[19-Feb-2018 19:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:02 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:02 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:04 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:04 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:04 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:04 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:14 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:14 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:14 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:14 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:15 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:51:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:51:15 UTC] PHP Stack trace:
+[19-Feb-2018 19:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:05 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:05 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:05 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:05 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:16 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:16 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:16 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:16 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:28 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:28 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:28 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:28 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:41 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:41 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:53:41 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:53:41 UTC] PHP Stack trace:
+[19-Feb-2018 19:53:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:56:01 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:56:01 UTC] PHP Stack trace:
+[19-Feb-2018 19:56:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:56:01 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:56:01 UTC] PHP Stack trace:
+[19-Feb-2018 19:56:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:56:03 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:56:03 UTC] PHP Stack trace:
+[19-Feb-2018 19:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:56:03 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:56:03 UTC] PHP Stack trace:
+[19-Feb-2018 19:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:57:58 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:57:58 UTC] PHP Stack trace:
+[19-Feb-2018 19:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:57:58 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:57:58 UTC] PHP Stack trace:
+[19-Feb-2018 19:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:58:00 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:58:00 UTC] PHP Stack trace:
+[19-Feb-2018 19:58:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:58:00 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:58:00 UTC] PHP Stack trace:
+[19-Feb-2018 19:58:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:58:13 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:58:13 UTC] PHP Stack trace:
+[19-Feb-2018 19:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 19:58:13 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 19:58:13 UTC] PHP Stack trace:
+[19-Feb-2018 19:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:01:49 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:01:49 UTC] PHP Stack trace:
+[19-Feb-2018 20:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:01:49 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:01:49 UTC] PHP Stack trace:
+[19-Feb-2018 20:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:01:52 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:01:52 UTC] PHP Stack trace:
+[19-Feb-2018 20:01:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:01:52 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:01:52 UTC] PHP Stack trace:
+[19-Feb-2018 20:01:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:02:27 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:02:27 UTC] PHP Stack trace:
+[19-Feb-2018 20:02:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:02:27 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:02:27 UTC] PHP Stack trace:
+[19-Feb-2018 20:02:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:02:28 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:02:28 UTC] PHP Stack trace:
+[19-Feb-2018 20:02:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 20:02:28 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 20:02:28 UTC] PHP Stack trace:
+[19-Feb-2018 20:02:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 22:28:24 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 22:28:24 UTC] PHP Stack trace:
+[19-Feb-2018 22:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[19-Feb-2018 22:28:24 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[19-Feb-2018 22:28:24 UTC] PHP Stack trace:
+[19-Feb-2018 22:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:53:27 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:53:27 UTC] PHP Stack trace:
+[20-Feb-2018 07:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:53:27 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:53:27 UTC] PHP Stack trace:
+[20-Feb-2018 07:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:53:29 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:53:29 UTC] PHP Stack trace:
+[20-Feb-2018 07:53:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:53:29 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:53:29 UTC] PHP Stack trace:
+[20-Feb-2018 07:53:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:05 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:05 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:05 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:05 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:05 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:57:05 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:06 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:06 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:06 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:06 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:06 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:57:06 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:08 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:08 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:08 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:08 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:08 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:57:08 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:31 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:31 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:31 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:31 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:31 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:57:31 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:33 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:33 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:33 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:57:33 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:57:33 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:57:33 UTC] PHP Stack trace:
+[20-Feb-2018 07:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:48 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:48 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:48 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:48 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:48 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:59:48 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:50 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:50 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:50 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:50 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:50 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:59:50 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:51 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:51 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:51 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 4
+[20-Feb-2018 07:59:51 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 07:59:51 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 07:59:51 UTC] PHP Stack trace:
+[20-Feb-2018 07:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:00:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 30
+[20-Feb-2018 08:00:07 UTC] PHP Stack trace:
+[20-Feb-2018 08:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:01:16 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting '{' in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 26
+[20-Feb-2018 08:01:16 UTC] PHP Stack trace:
+[20-Feb-2018 08:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:02:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 31
+[20-Feb-2018 08:02:00 UTC] PHP Stack trace:
+[20-Feb-2018 08:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:02:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 31
+[20-Feb-2018 08:02:02 UTC] PHP Stack trace:
+[20-Feb-2018 08:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:02:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 31
+[20-Feb-2018 08:02:51 UTC] PHP Stack trace:
+[20-Feb-2018 08:02:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:05:31 UTC] PHP Fatal error:  Call to undefined function showMeme() in /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php on line 25
+[20-Feb-2018 08:05:31 UTC] PHP Stack trace:
+[20-Feb-2018 08:05:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:10:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 33
+[20-Feb-2018 08:10:26 UTC] PHP Stack trace:
+[20-Feb-2018 08:10:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[20-Feb-2018 08:10:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 33
+[20-Feb-2018 08:10:28 UTC] PHP Stack trace:
+[20-Feb-2018 08:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0

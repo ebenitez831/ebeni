@@ -1,0 +1,46 @@
+body {
+     background-color: #fff;
+     -webkit-animation: random 5s infinite;
+     animation: random 15s infinite;
+}
+@keyframes  random {
+    15% { background-color: red; } 
+    30% { background-color: yellow; } 
+    45% { background-color: green; } 
+    60% { background-color: blue; }
+    75% { background-color: white; }  
+}
+
+header{
+    color:black;
+    text-align: center;
+    font-family: "impact", sans-serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#memePics{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 625px;
+    height: 655px;
+    border-radius: 8px;
+    
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: small;
+    border:none;
+    
+}
+
+hr{
+    border: none;
+}
+
+img{
+    height: 50px;
+    width: 65px;
+}
