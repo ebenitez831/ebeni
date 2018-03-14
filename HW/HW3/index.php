@@ -74,7 +74,7 @@
         
         <div>
             <textarea id = "instructions" rows="1" cols="68" readonly disabled>
-            choose the correct company that makes each car.
+                                    choose the correct company that makes each car.
             </textarea>
         </div>
         
