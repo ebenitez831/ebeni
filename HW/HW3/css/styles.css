@@ -16,11 +16,14 @@ form{
 
 #instructions{
     color: red;
-    text-align: center;
+    
     border: none;
     background-color: transparent;
     resize: none;
     overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #name{

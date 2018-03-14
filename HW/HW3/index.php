@@ -73,8 +73,8 @@
         </div>
         
         <div>
-            <textarea id = "instructions" rows="1" cols="68" readonly disabled>
-                                    choose the correct company that makes each car.
+            <textarea id = "instructions" rows="2" cols="45" readonly disabled>
+            choose the correct company that makes each car.
             </textarea>
         </div>
         
