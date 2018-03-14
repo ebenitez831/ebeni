@@ -256,3 +256,14 @@
 [20-Feb-2018 08:10:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebeni/HW/HW2/inc/function.php on line 33
 [20-Feb-2018 08:10:28 UTC] PHP Stack trace:
 [20-Feb-2018 08:10:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW2/Hw2.php:0
+[13-Mar-2018 23:16:01 UTC] PHP Fatal error:  Call to undefined function checkCategory() in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 56
+[13-Mar-2018 23:16:01 UTC] PHP Stack trace:
+[13-Mar-2018 23:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW3/index.php:0
+[13-Mar-2018 23:17:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 100
+[14-Mar-2018 04:15:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 208
+[14-Mar-2018 04:26:08 UTC] PHP Fatal error:  Call to undefined function test_input() in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 26
+[14-Mar-2018 04:26:08 UTC] PHP Stack trace:
+[14-Mar-2018 04:26:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW3/index.php:0
+[14-Mar-2018 04:26:51 UTC] PHP Fatal error:  Call to undefined function test_input() in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 26
+[14-Mar-2018 04:26:51 UTC] PHP Stack trace:
+[14-Mar-2018 04:26:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW3/index.php:0

@@ -165,3 +165,59 @@
 [26-Feb-2018 23:31:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/Labs/lab4/index.php:0
 [26-Feb-2018 23:31:25 UTC] PHP   2. checkCategory() /home/ubuntu/workspace/ebeni/Labs/lab4/index.php:107
 [28-Feb-2018 22:21:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/Labs/lab4/index.php on line 159
+[12-Mar-2018 22:30:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(76): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 14
+[12-Mar-2018 22:30:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(76): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 14
+[12-Mar-2018 22:30:30 UTC] PHP Parse error:  syntax error, unexpected '"%"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 34
+[12-Mar-2018 22:30:32 UTC] PHP Parse error:  syntax error, unexpected '"%"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 34
+[12-Mar-2018 22:44:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(86): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 13
+[12-Mar-2018 22:44:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(86): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 13
+[12-Mar-2018 22:46:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(113): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 56
+[12-Mar-2018 22:46:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(88): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 13
+[12-Mar-2018 22:46:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(88): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 13
+[12-Mar-2018 22:47:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(88): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 13
+[12-Mar-2018 22:47:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/ebeni/labs/lab6/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/ebeni/labs/lab6/index.php(113): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab6/index.php on line 56

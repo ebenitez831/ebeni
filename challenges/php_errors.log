@@ -1,1 +1,16 @@
 [07-Feb-2018 23:47:28 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/ebeni/challenges/challenge2/randomCardGame.php on line 55
+[12-Mar-2018 21:28:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'otermart'' in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php(30): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php on line 30
+[12-Mar-2018 21:33:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'om_purchaseDate' in 'where clause'' in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php on line 34
+[12-Mar-2018 21:33:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'om_purchaseDate' in 'where clause'' in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php(34): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/challenges/challenge4/reports.php on line 34
