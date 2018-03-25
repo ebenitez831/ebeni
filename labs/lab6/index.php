@@ -1,13 +1,14 @@
+
 <?php
 
     include '../../dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
-    
+
     function displayCategories(){
         global $conn;
         
-        $sql = "SELECT catName FROM `om_category` ORDER BY catName";
+        $sql = "SELECT catId, catName FROM `om_category` ORDER BY catName";
         
         $stmt = $conn->prepare($sql);
         $stmt->execute();
@@ -20,10 +21,11 @@
             echo "<option value='".$record["catId"]."' >" . $record["catName"] . "</option>";
             
         }
+        
     }
     
     function displaySearchResults(){
-      global $conn;
+        global $conn;
         
         if (isset($_GET['searchForm'])) { //checks whether user has submitted the form
             
@@ -39,18 +41,23 @@
             
             $sql = "SELECT * FROM om_product WHERE 1";
             
-            if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
-                 $sql .=  "AND productName LIKE :productName";
+            if (!empty($_GET['product'])) { //checks whether user has typed something in the "Product" text box
+                 $sql .=  " AND productName LIKE :productName";
                  $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
             }
+                  
+                  
+             if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
+                 $sql .=  " AND catId = :categoryId";
+                 $namedParameters[":categoryId"] =  $_GET['category'];
+             }    
             
-            if (!empty($_GET['product'])) { //checks whether user has typed something in the "Product" text box
-                 $sql .=  "AND catId = categoryId";
-                 $namedParameters[":categoryId"] = "%" . $_GET['category'] . "%";
-            }
-                    
-
-echo $sql;
+             if (!empty($_GET['priceFrom'])) { //checks whether user has typed something in the "Product" text box
+                 $sql .=  " AND price >= :priceFrom";
+                 $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
+             }
+            
+            //echo $sql; //for debugging purposes
             
              $stmt = $conn->prepare($sql);
              $stmt->execute($namedParameters);
@@ -58,15 +65,15 @@ echo $sql;
         
             foreach ($records as $record) {
             
-                 echo  $record["productName"] . " " . $record["productDescription"] . "<br />";
+                 echo  $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br /><br />";
             
             }
         }
+        
     }
 
-
+    
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -74,43 +81,39 @@ echo $sql;
         <title> OtterMart Product Search </title>
     </head>
     <body>
-        
-        <h1> OtterMart Product Search </h1>
+
+        <h1>  OtterMart Product Search </h1>
         
         <form>
             
-            Product: <input type = "text" name = "product" /> <br />
+            Product: <input type="text" name="product" /><br />
             
-            Category:
-                <select name = "category">
-                    
-                    <option value = "" > Select One</option>
-                    <? = displayCategories()?>
-                    
+            Category: 
+                <select name="category">
+                    <option value=""> Select One </option>
+                    <?=displayCategories()?>
                 </select>
-                
             <br />
             
-            Price: From <input type="text" name="priceFrom" size = "7"/>
-                        To <input type="text" name="PriceTo" size = "7"/>
-                        
+            Price:  From <input type="text" name="priceFrom" size="7"/>
+                    To   <input type="text" name="priceTo" size="7"/>
+                    
             <br />
             
-            order result by: <br />
-            
-            <input type="radio" name="orderBy" value = "price"/> Price <br />
-            <input type="radio" name="orderBy" value = "name"/> Name
-            
-            <br />
-            
-            <input type="submit" value = "search" name="searchForm"/>
-            
+             Order result by:<br />
+             
+             <input type="radio" name="orderBy" value="price"/> Price <br />
+             <input type="radio" name="orderBy" value="name"/> Name
+             
+             <br />
+             <input type="submit" value="Search" name="searchForm" />
+             
         </form>
         
         <br />
         <hr>
         
-        <?=displaySearchResults() ?>
+        <?= displaySearchResults() ?>
 
     </body>
 </html>

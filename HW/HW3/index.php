@@ -223,5 +223,18 @@
         <input id = "submitButton" type="submit" value="Submit Quiz"/>
         </div>
     </form>
+    
+    <footer>
+                <hr>
+                CST336 Internet Programming. 2018 &copy; Esteban Benitez <br />
+                <strong> Disclaimer:</strong>
+                The information in this website is fictitous. It's used for academic purposes.
+                    
+                <figure>
+                        
+                     <img id = "logo" src = "csumbLogo/csumbLogo.png" alt = "csumb logo" />
+                        
+                </figure>
+            </footer>
     </body>
 </html>
