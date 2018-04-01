@@ -10,7 +10,7 @@ function displayCart(){
             
             echo '<tr>';
             
-            echo "<td><img src ='" . $item['img'] . "'></td>";
+            echo "<td><img src='" . $item['img'] . "'></td>";
             echo "<td><h4>". $item['name'] . "</h4></td>";
             echo "<td><h4>$". $item['price'] . "</h4></td>";
 
@@ -62,9 +62,9 @@ function displayResults(){
             echo "<input type='hidden' name='itemId' value='$itemId'>";
             
             if($_POST['itemId'] == $itemId){
-                echo '<td><button class="btn btn-success"> Added</button></td>';
+                echo '<td><button class="btn btn-success">Added</button></td>';
             }else{
-                echo '<td><button class="btn btn-warning"> Add</button></td>';
+                echo '<td><button class="btn btn-warning">Add</button></td>';
             }
             
             echo '</tr>';

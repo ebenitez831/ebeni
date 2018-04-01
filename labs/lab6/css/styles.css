@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#title{
+    color: #164d60;
+    font-family: 'Roboto', sans-serif;
+}
+
+#product, #price{
+    border-color: #164d60;
+    border-radius: 8px;
+}
+
+#search {
+  border-color: #164d60;
+  color: black;
+}
+
+#search:hover {
+  background: #164d60;
+}

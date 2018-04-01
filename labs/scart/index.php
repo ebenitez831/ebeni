@@ -22,8 +22,8 @@
         $newItem['id'] = $_POST['itemId']; 
         
         //array_push($_SESSION['cart'], $newItem);
-    
-    
+        
+        
         foreach($_SESSION['cart'] as &$item){
             if($newItem['id'] == $item['id']){
                 $item['quantity'] += 1;

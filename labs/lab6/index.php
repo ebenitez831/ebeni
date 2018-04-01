@@ -50,12 +50,7 @@
              if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
                  $sql .=  " AND catId = :categoryId";
                  $namedParameters[":categoryId"] =  $_GET['category'];
-             }    
-            
-             if (!empty($_GET['priceFrom'])) { //checks whether user has typed something in the "Product" text box
-                 $sql .=  " AND price >= :priceFrom";
-                 $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
-             }
+            }        
             
             //echo $sql; //for debugging purposes
             
@@ -64,8 +59,8 @@
              $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
             foreach ($records as $record) {
-            
-                 echo  $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br /><br />";
+                echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]."\"> History </a>";
+                echo  $record["productName"] . " " . $record["productDescription"] . "<br />";
             
             }
         }
@@ -79,34 +74,42 @@
 <html>
     <head>
         <title> OtterMart Product Search </title>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
+    
+    
+    <style>
+        @import url("css/styles.css");
+    </style>
+    
     <body>
 
-        <h1>  OtterMart Product Search </h1>
+        <h1 id = "title">  OtterMart Product Search </h1>
         
         <form>
             
-            Product: <input type="text" name="product" /><br />
+            <strong>Product</strong>: <input id = "product" type="text" name="product" /><br />
             
-            Category: 
+            <strong>Category</strong>: 
                 <select name="category">
                     <option value=""> Select One </option>
                     <?=displayCategories()?>
                 </select>
             <br />
             
-            Price:  From <input type="text" name="priceFrom" size="7"/>
-                    To   <input type="text" name="priceTo" size="7"/>
+            <strong>Price</strong>:  From <input id = "price" type="text" name="priceFrom" size="7"/>
+                    To   <input id = "price" type="text" name="priceTo" size="7"/>
                     
             <br />
             
-             Order result by:<br />
+             <strong>Order result by</strong>:<br />
              
              <input type="radio" name="orderBy" value="price"/> Price <br />
              <input type="radio" name="orderBy" value="name"/> Name
              
              <br />
-             <input type="submit" value="Search" name="searchForm" />
+             <input id = "search" type="submit" value="Search" name="searchForm" />
              
         </form>
         
