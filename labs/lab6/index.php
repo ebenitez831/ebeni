@@ -70,6 +70,20 @@
     
 ?>
 
+<?php
+                //ordered by price
+    //SELECT * FROM `om_product` ORDER BY price DESC
+    //SELECT * FROM `om_product` ORDER BY price
+    
+                // order by name
+    //SELECT * FROM `om_product` ORDER BY productName
+    //SELECT * FROM `om_product` ORDER BY productName DESC
+
+                //order by description  
+    //SELECT * FROM `om_product` ORDER BY productDescription
+    //SELECT * FROM `om_product` ORDER BY productDescription DESC
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
