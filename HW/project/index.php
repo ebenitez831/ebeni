@@ -3,13 +3,9 @@
     //Put session handling here
     session_start();
     include "shoppingCart.php";
+    include "functions.php";
     
-    if(!isset($_SESSION['shoppingCart'])){
-        $_SESSION['shoppingCart'] = array();
-    }
-    
-    //emptys shopping cart
-    if(isset($_GET['empty_cart'])){
+    if(!isset($_SESSION['shoppingCart']) || isset($_GET['empty_cart'])){
         $_SESSION['shoppingCart'] = array();
     }
     
@@ -30,7 +26,7 @@
         else
         {
             $host = "localhost";
-            $username = "web_user";
+            $username = "web_user"; //make sure to change before pushing web_user, s3cr3t
             $password = "s3cr3t";
         }
         
@@ -101,7 +97,7 @@
         
         <header>
             <!-- Bootstrap Navagation Bar -->
-            <nav class='navbar navbar-default - navbar-fixed-top'>
+            <nav class='navbar navbar-inverse - navbar-fixed-top'>
                 <div class='container-fluid'>
                     <div class='navbar-header'>
                         <a class='navbar-brand' href='index.php'>Vacation Master</a>
@@ -131,29 +127,52 @@
                 {
             
             ?>
-            <div id="criteria">
-                <!-- Put the form and search criteria here -->
-                <form method = "GET">
-                <h4> Filter days wanted: </h4>
-                Mininmum:<input type = "number" min = "1" max = "10" name = "minDays"/> Maximum: <input type ="number" min = "1" max = "10" name ="maxDays"/>
-                </br></br>
-                <h4>Filter activities available:</h4>
-                <select name = "activity">
-                    <option value="">Select</option>
-                    <?= displayCategories($vacation_master_db) ?>
-                </select>
-                </br></br>    
-                <h4>Filter by price:</h4>
-                 Mininmum:<input type = "number" min = "100" max = "10000" name = "minDays"/> Maximum: <input type ="number" min = "100" max = "10000" name ="maxDays"/>
-                 </br></br>
-                 <h4> Sort by: </h4>
-                Price: <input type = "radio" name = "Price" value = "Price"> 
-                Date: <input type = "radio" name = "Date" value = "Date">
-                </br>
-                <h4>Generate your results:</h4>
-                 
-                <input type="submit" id= "button" value="Results"/>
-        </form>
+            <div class = "container">
+                <div class = "panel panel-default">
+                    <h1 id = 'vacmas'> Vaction Master</h1>
+                    </br>
+                    <h3 id='greet'>Hello and welcome to vaction master. To get started, please enter in ways you would like to schedule or plan your trip</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class = "panel panel-default">
+                    <!-- Put the form and search criteria here -->
+                    
+                    <form method = "GET">
+                        <div class ="panel panel-primary">
+                        <div class="panel-heading"><h4> Filter days wanted: </h4></div>
+                        </div>
+                        Mininmum:<input type = "number" min = "1" max = "10" name = "minDays"/> Maximum: <input type ="number" min = "1" max = "10" name ="maxDays"/>
+                </div>
+                <div class = "panel panel-default">
+                    <div class ="panel panel-primary">
+                        <div class="panel-heading"><h4>Filter activities available:</h4></div>
+                    </div>
+                        <select name = "activity">
+                            <option value="">Select</option>
+                            <?= displayCategories($vacation_master_db) ?>
+                        </select>
+                </div>
+                        </br>
+                <div class = "panel panel-default">
+                    <div class ="panel panel-primary">
+                        <div class="panel-heading"><h4>Filter by price:</h4></div>
+                    </div>
+                         Mininmum:<input type = "number" min = "100" max = "10000" name = "minPrice"/> Maximum: <input type ="number" min = "100" max = "10000" name ="maxPrice"/>
+                </div>         
+                         </br>
+                <div class = "panel panel-default">
+                       <div class ="panel panel-primary">
+                        <div class="panel-heading"><h4>Sort by:</h4></div>
+                    </div>
+                        Price: <input type = "radio" name = "Price" value = "Price"> 
+                        Date: <input type = "radio" name = "Date" value = "Date">
+                </div>
+                        
+                        <div class ="panel panel-primary"><h4>Generate your results:</h4></div>
+                        <input type="submit" class="btn btn-success btn-lg" value="Results"/>
+                    </form>
+                
             </div>
             
             <?php
@@ -165,20 +184,45 @@
             
             <div id='cart'>
                 
-                <!--<form>-->
-                <!--    <input type ='hidden' value = 'true' name = 'empty_cart'/>-->
-                <!--    <input type = 'submit' value = 'empty the cart'/>-->
-                <!--</form>-->
                 <?php
                 
-                    displayCart();
-                
+                    if(empty($_SESSION['shoppingCart']))
+                    {
+                        echo "<h3>";
+                        echo "The shopping cart is empty";
+                        echo "</h3>";
+                    }
+                    else
+                    {
                 ?>
                 
                 <form>
-                    <input type ='hidden' value = 'true' name = 'empty_cart'/>
-                    <input type = 'submit' value = 'empty the cart'/>
+                    <input type="hidden" name="empty_cart" value="true"/>
+                    <input type="submit" value="Empty Cart"/>
                 </form>
+                
+                <?php
+                
+                    }
+                    displayCart();
+                
+                    /*
+                    foreach ($_SESSION['shoppingCart'] as $item)
+                    {
+                        foreach ($everything as $value)
+                        {
+                            if($item == $value['package_id'])
+                            {
+                                echo $value['package_name'];
+                                echo "<br />";
+                            }
+                        }
+                    }
+                    */
+                    
+                    
+                
+                ?>
                 
             </div>
             
@@ -196,7 +240,8 @@
                     foreach ($everything as $value)
                     {
                         if($_GET['further_info_about'] == $value['event_id'])
-                        {
+                        {   echo "<div class = 'container'>
+                <div class = 'panel panel-default'>";
                             echo "<h1>";
                             echo $value['package_name'];
                             echo " (";
@@ -206,7 +251,7 @@
                             echo "<input type='hidden' name='add' value='";
                             echo $_GET['further_info_about'];
                             echo "' />";
-                            echo "<input type='submit' value='Add to cart' />";
+                            echo "<input type='submit' class ='btn btn-primary btn-block' value='Add to cart' />";
                             echo "</form>";
                             echo "</h1>";
                             
@@ -214,7 +259,7 @@
                             
                             echo "<div id='item info'>";
                             
-                            echo "<h2>";
+                            echo "<h2 class = 'info_page'>";
                             echo $value['activity_name'];
                             echo "</h2>";
                             
@@ -226,7 +271,7 @@
                             echo "<p>";
                             echo $value['activity_description'];
                             
-                            echo "<img style='max-width: 20%;' src='";
+                            echo "<img style='max-width: 20%;' class='img-thumbnail'  src='";
                             echo $value['activity_image'];
                             echo "' />";
                             
@@ -277,11 +322,13 @@
                             echo "Location; ";
                             echo "</strong>";
                             echo $value['lodge_address'];
-                            
+                            echo "</div></div>";
                             echo "</div>";
+                            
                         }
+                       
                     }
-                
+                   
                 ?>
                 
             </div>
@@ -296,27 +343,12 @@
             
             <div id="results">
                 
-                <form>
-                    <input type='hidden' name='add' value='2'/>
-                    <input type='submit' value = 'submit'/>
-                </form> 
+                
                 
                 <?php
                 
-                    print_r($_SESSION['shoppingCart']);
-                
-                    //loop through to show the results here
-                    foreach ($everything as $value)//this loop is a place holder
-                    {
-                        echo "<form method='get'>";
-                        echo "<button name='further_info_about' value=";
-                        echo $value['event_id'];
-                        echo ">";
-                        echo "Get more info";
-                        echo "</button>";
-                        echo "</form>";
-                    }
-                
+                    displayResults();
+            
                 ?>
                 
             </div>
