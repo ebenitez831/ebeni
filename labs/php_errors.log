@@ -413,3 +413,138 @@ Stack trace:
 #0 /home/ubuntu/workspace/ebeni/labs/lab6/purchaseHistory.php(22): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/ebeni/labs/lab6/purchaseHistory.php on line 22
+[02-Apr-2018 21:29:23 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/ebeni/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:29:23 UTC] PHP Stack trace:
+[02-Apr-2018 21:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/admin.php:0
+[02-Apr-2018 21:31:10 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/ebeni/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:31:10 UTC] PHP Stack trace:
+[02-Apr-2018 21:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/admin.php:0
+[02-Apr-2018 21:32:23 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/ebeni/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:32:23 UTC] PHP Stack trace:
+[02-Apr-2018 21:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/admin.php:0
+[02-Apr-2018 21:33:07 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/ebeni/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:33:07 UTC] PHP Stack trace:
+[02-Apr-2018 21:33:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/admin.php:0
+[02-Apr-2018 21:38:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:38:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:38:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:38:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:41:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 35
+[02-Apr-2018 21:42:09 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/ebeni/labs/lab7/admin.php on line 24
+[02-Apr-2018 21:42:09 UTC] PHP Stack trace:
+[02-Apr-2018 21:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/admin.php:0
+[02-Apr-2018 21:55:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:56:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:58:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 21:58:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/loginProcess.php on line 36
+[02-Apr-2018 22:24:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/ebeni/labs/lab7/addProduct.php on line 16
+[02-Apr-2018 22:46:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/addProduct.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/addProduct.php(39): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/addProduct.php on line 39
+[04-Apr-2018 21:51:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 21:51:26 UTC] PHP Stack trace:
+[04-Apr-2018 21:51:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:51:26 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:21
+[04-Apr-2018 21:58:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 62
+[04-Apr-2018 22:32:13 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:32:13 UTC] PHP Stack trace:
+[04-Apr-2018 22:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:32:13 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:32:14 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:32:14 UTC] PHP Stack trace:
+[04-Apr-2018 22:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:32:14 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:32:27 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:32:27 UTC] PHP Stack trace:
+[04-Apr-2018 22:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:32:27 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:33:37 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:33:37 UTC] PHP Stack trace:
+[04-Apr-2018 22:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:33:37 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:33:54 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:33:54 UTC] PHP Stack trace:
+[04-Apr-2018 22:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:33:54 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:33:57 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:33:57 UTC] PHP Stack trace:
+[04-Apr-2018 22:33:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:33:57 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:01 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:01 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:01 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:16 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:16 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:16 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:29 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:29 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:29 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:31 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:31 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:31 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:34 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:34 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:34 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[04-Apr-2018 22:34:36 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 58 and defined in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:34:36 UTC] PHP Stack trace:
+[04-Apr-2018 22:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:34:36 UTC] PHP   2. getCategories() /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:58
+[09-Apr-2018 21:29:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php(49): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/updateProduct.php on line 29
+[09-Apr-2018 21:53:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php on line 9
+[09-Apr-2018 21:54:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php on line 9
