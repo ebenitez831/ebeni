@@ -267,3 +267,21 @@
 [14-Mar-2018 04:26:51 UTC] PHP Fatal error:  Call to undefined function test_input() in /home/ubuntu/workspace/ebeni/HW/HW3/index.php on line 26
 [14-Mar-2018 04:26:51 UTC] PHP Stack trace:
 [14-Mar-2018 04:26:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/HW3/index.php:0
+[16-Apr-2018 20:47:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY event_start_date 1' at line 1' in /home/ubuntu/workspace/ebeni/HW/project/functions.php:116
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/project/functions.php(116): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/ebeni/HW/project/index.php(348): displayResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/project/functions.php on line 116
+[16-Apr-2018 20:48:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY event_start_date 1' at line 1' in /home/ubuntu/workspace/ebeni/HW/project/functions.php:116
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/project/functions.php(116): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/ebeni/HW/project/index.php(348): displayResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/project/functions.php on line 116
+[16-Apr-2018 20:48:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY event_start_date 1' at line 1' in /home/ubuntu/workspace/ebeni/HW/project/functions.php:116
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/project/functions.php(116): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/ebeni/HW/project/index.php(348): displayResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/project/functions.php on line 116
