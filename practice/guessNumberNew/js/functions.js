@@ -1,28 +1,28 @@
- var randomNumber = randomNumber = Math.floor(Math.random() * 99) + 1;
-                    var guesses = document.querySelector("#guesses");
-                    var lastResult = document.querySelector("#lastResult");
-                    var lowOrHigh = document.querySelector("#lowOrHigh");
+var randomNumber = randomNumber = Math.floor(Math.random() * 99) + 1;
+var guesses = document.querySelector("#guesses");
+var lastResult = document.querySelector("#lastResult");
+var lowOrHigh = document.querySelector("#lowOrHigh");
                     
-                    var guessSubmit = document.querySelector('.guessSubmit');
-                    var guessField = document.querySelector('.guessField');
+var guessSubmit = document.querySelector('.guessSubmit');
+var guessField = document.querySelector('.guessField');
                     
-                    var guessCount = 1;
-                    var resetButton = document.querySelector('#reset');
-                    resetButton.style.display = 'none';
-                    guessField.focus();
-                    //document.getElementById("numberToGuess").innerHTML = randomNumber;
+var guessCount = 1;
+var resetButton = document.querySelector('#reset');
+    resetButton.style.display = 'none';
+    guessField.focus();
+    //document.getElementById("numberToGuess").innerHTML = randomNumber;
                     
-                    function checkGuess(){
-                        var userGuess = Number(guessField.value);
-                        if(guessCount === 1){
-                            guesses.innerHTML = 'Previous guesses: ';
-                        }
-                        guesses.innerHTML += userGuess + ' ';
+function checkGuess(){
+    var userGuess = Number(guessField.value);
+    if(guessCount === 1){
+        guesses.innerHTML = 'Previous guesses: ';
+    }
+    guesses.innerHTML += userGuess + ' ';
                         
-                        if(userGuess === randomNumber){
-                            lastResult.innerHTML = 'Congratulations! You got it right!';
-                            lastResult.style.backgroundColor = 'green';
-                            lowOrHigh.innerHTML = '';
+    if(userGuess === randomNumber){
+        lastResult.innerHTML = 'Congratulations! You got it right!';
+        lastResult.style.backgroundColor = 'green';
+        lowOrHigh.innerHTML = '';
                             setGameOver();
                             
                         } else if(guessCount === 7){
