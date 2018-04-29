@@ -548,3 +548,18 @@ Stack trace:
 #0 /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php(9): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/ebeni/labs/lab7/deleteProduct.php on line 9
+[25-Apr-2018 21:53:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php on line 15
+[25-Apr-2018 21:53:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php on line 15
+[25-Apr-2018 21:53:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/labs/lab9/checkUsernameAPI.php on line 15
