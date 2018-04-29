@@ -33,6 +33,9 @@
                 
                     if (password != confirmPassword)
                         $("#checkPassword").html("<span class = 'text-danger'>Passwords do not match!</span>");
+                        
+                    else if(password.length === 0 || passwordConfirm === 0)
+                        $("#checkPassword").html("<span></span>");
                     
                     else
                         $("#checkPassword").html("<span class = 'text-success = green'>Passwords match. </span>");
