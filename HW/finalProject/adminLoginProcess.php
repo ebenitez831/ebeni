@@ -1,12 +1,10 @@
 <?php
 
     session_start();
-
-    //print_r($_POST);  //displays values passed in the form
     
     include '../../dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("videoGames");
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);

@@ -285,3 +285,118 @@ Stack trace:
 #1 /home/ubuntu/workspace/ebeni/HW/project/index.php(348): displayResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/ebeni/HW/project/functions.php on line 116
+[02-May-2018 19:00:28 UTC] PHP Warning:  include(headerphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/finalProject/index.php on line 8
+[02-May-2018 19:00:28 UTC] PHP Stack trace:
+[02-May-2018 19:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/index.php:0
+[02-May-2018 19:00:28 UTC] PHP Warning:  include(): Failed opening 'headerphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/finalProject/index.php on line 8
+[02-May-2018 19:00:28 UTC] PHP Stack trace:
+[02-May-2018 19:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/index.php:0
+[02-May-2018 19:11:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'videoGames.om_product' doesn't exist' in /home/ubuntu/workspace/ebeni/HW/finalProject/adminLogin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/adminLogin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/HW/finalProject/adminLogin.php(80): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/adminLogin.php on line 15
+[02-May-2018 19:47:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'videoGames.om_product' doesn't exist' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(65): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 29
+[02-May-2018 19:52:09 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 101
+[02-May-2018 19:52:09 UTC] PHP Stack trace:
+[02-May-2018 19:52:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 19:54:18 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 101
+[02-May-2018 19:54:18 UTC] PHP Stack trace:
+[02-May-2018 19:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:01:51 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 101
+[02-May-2018 20:01:51 UTC] PHP Stack trace:
+[02-May-2018 20:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:05:24 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 101
+[02-May-2018 20:05:24 UTC] PHP Stack trace:
+[02-May-2018 20:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:07:39 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 102
+[02-May-2018 20:07:39 UTC] PHP Stack trace:
+[02-May-2018 20:07:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:07:46 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 102
+[02-May-2018 20:07:46 UTC] PHP Stack trace:
+[02-May-2018 20:07:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:10:37 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 102
+[02-May-2018 20:10:37 UTC] PHP Stack trace:
+[02-May-2018 20:10:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:0
+[02-May-2018 20:14:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:15:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:22:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:23:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:23:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:24:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 20:25:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:16:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(59): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 59
+[02-May-2018 21:18:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:18:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:19:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:21:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:22:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:22:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 57
+[02-May-2018 21:24:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'game_name = 'The Legend of Zelda: Ocarina of Time (N64)',
+                    re' at line 3' in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php(59): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/ebeni/HW/finalProject/updateGame.php on line 59
