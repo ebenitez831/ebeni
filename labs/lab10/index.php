@@ -1,54 +1,39 @@
-<style>
-#demo .carousel-control-next {
-    right: 450;
-    
-}
-
-#demo .carousel-control-prev {
-    left: 450;
-}
-
-#demo .carousel-control-next-icon, #demo .carousel-control-prev-icon {
-  background-color:black;
-}
-
-</style>
-
 <?php
 
     include 'inc/header.php';
 
 ?>
-
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  
-  <!-- The slideshow -->
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/alex.jpg" alt="lion" width="300" height="240">
+      <img class="d-block w-100" src="img/alex.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img src="img/bear.jpg" alt="bear" width="300" height="240">
+      <img class="d-block w-100" src="img/bear.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img src="img/otter.jpg" alt="sea otter" width="300" height="240">
+      <img class="d-block w-100" src="img/carl.jpg" alt="Third slide">
     </div>
   </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
   </a>
 </div>
+        <!-- Add Carousel here -->
+        
+        
+        <br>
+        
+        <a href="pets.php"  class="btn btn-outline-primary" role="button" aria-pressed="true"> Adopt Now! </a>
+        
+        
+        <br>
         
 
 <?php

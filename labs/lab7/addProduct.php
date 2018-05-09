@@ -56,6 +56,7 @@ if (isset($_GET['submitProduct'])) {
         <title> Add a product </title>
     </head>
     <body>
+        <a href="adminPage.php">Admin Home</a>
         <h1> Add a product</h1>
         <form>
             

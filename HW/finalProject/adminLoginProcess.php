@@ -40,7 +40,7 @@
         //echo "Wrong Username or password";
         
         $_SESSION['errMsg'] = "Invalid username or password!";
-        header("Location:index.php");
+        header("Location:adminLogin.php");
         
     }
     else {

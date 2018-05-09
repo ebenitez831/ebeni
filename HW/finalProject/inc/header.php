@@ -10,7 +10,13 @@
         <style>
             body {
                 text-align: center;
+                background-image: url("image/background2.jpg");
             }
+            
+        </style>
+        
+        <style type="text/css">
+            @import url("css/styles.css");
         </style>
    
     </head>
@@ -40,6 +46,57 @@
           <h1> The top 20 highest rated games </h1>
         </div>
         
-        <div>
-            
-        </div>
+      <div>  
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+    
+    <div>
+      <div>
+        <form action = "searchPage.php" method ="get">
+            <input type ="text" name = "search" placeholder = "Search for a game title">
+            <input type = "submit" class = "btn btn-success btn-md" value= "Submit" />
+        </form>
+      </div><br>
+      
+      <div>
+        <form action = "searchPage.php" method ="get">
+        <select id = "platform" action = "searchPage.php">
+          <option value="" select = "selected">Select One</option>
+          <option value="Console">Console</option>
+          <option value="PC">PC</option>
+          <option value="Console and PC">Console and PC</option>
+        </select>
+      </div>
+      
+    </div><br>
+    
+  <script>
+    $(document).ready( function(){
+        $("#platform").change( function () {
+                    alert("hi")
+                    alert( $("#platform").val());
+                    
+                    $.ajax({
+
+                        type: "GET",
+                        url: "api/getGameByPlatformPI",
+                        dataType: "json",
+                        data: { "platform": $("#platform").val()},
+                        success: function(data,status) {
+                        
+                        $("#county").html("<option>Select One</option>");
+                        for(var i=0; i<data.length; i++)
+                        {
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
+                        }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+    });
+    
+  </script>

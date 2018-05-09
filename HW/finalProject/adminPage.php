@@ -33,7 +33,7 @@ function displayAllProducts(){
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style type="text/css">
-            @import url("styles.css");
+            @import url("css/styles.css");
         </style>
         
         
@@ -53,17 +53,26 @@ function displayAllProducts(){
             
         </script>
         
+        <style>
+        
+            body{
+                background-image: url("image/background2.jpg");
+                color: white;
+            }
+            
+        </style>
+        
     </head>
     <body>
 
 
-        
+        <div class = "col-xs-offset-5">
         <h1> Admin Main Page </h1>
         
-        <h3> Welcome <?=$_SESSION['adminName']?>! </h3>
+        <h3 id = "welcome"> Welcome <?=$_SESSION['adminName']?>! </h3>
         
         <br />
-        <form action="addProduct.php">
+        <form action="addGame.php">
             <input type="submit" class= 'btn' name="addGame" value="Add Game"/>
         </form>
         
@@ -82,7 +91,7 @@ function displayAllProducts(){
                 
                 echo "<a class='btn btn-primary btn-sm' role='button' href='updateGame.php?game_id=".$record['game_id']."' >Update</a> ";
                 
-                echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+                echo "<form action='deleteGame.php' onsubmit='return confirmDelete()'>";
                 
                 echo "<input type='hidden' name='game_id' value= " . $record['game_id'] . " />";
                 
@@ -97,6 +106,6 @@ function displayAllProducts(){
         ?>
         
         
-
+    </div>
     </body>
 </html>

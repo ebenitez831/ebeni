@@ -13,18 +13,27 @@
         <style> 
             @import url("css/styles.css"); 
         </style>
+        
+        <style>
+        
+            body{
+                text-align:center;
+                background-image: url("image/background2.jpg");
+                color: white;
+                
+            }
+        
+            
+        </style>
     </head>
     
         
 
-    <body id = "login" style = "text-align:center;">
+    <body id = "login">
         
-            <h1> Video Game - Admin Login </h1>
-            
+            <h1 id = "title"> Video Game - Admin Login </h1>
             <form method="POST" action="adminLoginProcess.php">
-                
-               <div class="col-xs-2">
-                   
+               <div id ="login" class="col-xs-2 col-xs-offset-5">
                     <label for="username">Username:</label>    
                     <input type="text" class="form-control" id="username" name = "username">
                     
@@ -33,17 +42,16 @@
                     <input type= "password" class = "form-control" id ="password" name = "password">
                     </br>
                     
-                    <input type="submit" class="btn" name="submitForm" value="Login!">
+                    <input type="submit" class="btn btn-success" name="submitForm" value="Login!">
                     
                     <div id="error">
                         <br>
                         <?php if(!empty($_SESSION['errMsg'])) { echo $_SESSION['errMsg']; } ?>
                     </div>
                         <?php unset($_SESSION['errMsg']); ?>
-                    
                 </div>    
             </form>
-        
+            </div>       
     </body>
     
 </html>
