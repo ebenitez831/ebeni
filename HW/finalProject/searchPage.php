@@ -4,14 +4,34 @@
 
 <?php
 
- include '../../dbConnection.php';
+ //include '../../dbConnection.php';
+ 
+    $host = "localhost";
+    $dbname = $dbName;
+    $username = "root";
+    $password = "";
+ 
+ //checks whether the URL contains "herokuapp" (using Heroku)
+if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
+   $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+   $host = $url["host"];
+   $dbname = substr($url["path"], 1);
+   $username = $url["user"];
+   $password = $url["pass"];
+}
  //$conn = getDatabaseConnection("videoGames");
  
  //mysql_connect("localhost", "root", "");
 // mysql_select_db("videoGames");
+
+ //mysql_connect("localhost", "root", "");
+ //mysql_select_db("videoGames");
  
- mysql_connect("us-cdbr-iron-east-05.cleardb.net", "b5823dde7e753d", "c16dc3f0");
- mysql_select_db("heroku_5aacf6af28c5779");
+ //mysql_connect("us-cdbr-iron-east-05.cleardb.net", "b5823dde7e753d", "c16dc3f0");
+ //mysql_select_db("heroku_5aacf6af28c5779");
+ 
+ mysql_connect($host, $username, $password);
+ mysql_select_db("videoGames");
  
  $output = '';
  

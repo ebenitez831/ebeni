@@ -1357,3 +1357,46 @@ Stack trace:
 [09-May-2018 05:30:27 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:16) in /home/ubuntu/workspace/ebeni/dbConnection.php on line 3
 [09-May-2018 05:30:27 UTC] PHP Stack trace:
 [09-May-2018 05:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 16
+[09-May-2018 18:27:19 UTC] PHP Stack trace:
+[09-May-2018 18:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:16
+[09-May-2018 18:27:19 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 16
+[09-May-2018 18:27:19 UTC] PHP Stack trace:
+[09-May-2018 18:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:16
+[09-May-2018 18:27:19 UTC] PHP Warning:  mysql_select_db() expects parameter 1 to be string, object given in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 17
+[09-May-2018 18:27:19 UTC] PHP Stack trace:
+[09-May-2018 18:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP   2. mysql_select_db() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:17
+[09-May-2018 18:27:19 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 25
+[09-May-2018 18:27:19 UTC] PHP Stack trace:
+[09-May-2018 18:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:25
+[09-May-2018 18:27:19 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 25
+[09-May-2018 18:27:19 UTC] PHP Stack trace:
+[09-May-2018 18:27:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:19 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:25
+[09-May-2018 18:27:44 UTC] PHP Warning:  include(../../dbconnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 16
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP Warning:  include(): Failed opening '../../dbconnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 16
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 16
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:16
+[09-May-2018 18:27:44 UTC] PHP Warning:  mysql_select_db() expects parameter 1 to be string, object given in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 17
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP   2. mysql_select_db() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:17
+[09-May-2018 18:27:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 25
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:25
+[09-May-2018 18:27:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 25
+[09-May-2018 18:27:44 UTC] PHP Stack trace:
+[09-May-2018 18:27:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:0
+[09-May-2018 18:27:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php:25
+[09-May-2018 18:29:31 UTC] PHP Parse error:  syntax error, unexpected 'Database' (T_STRING) in /home/ubuntu/workspace/ebeni/HW/finalProject/searchPage.php on line 10
