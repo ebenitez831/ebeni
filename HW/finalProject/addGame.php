@@ -76,7 +76,7 @@ if (isset($_GET['submitGame'])) {
             Game name <input class = "form-control" type="text" name="game_name"><br>
             Release Date <input class = "form-control" type = "text" name="release_date"><br>
             Game Rating <input class = "form-control" type="text" name="gameRating"><br>
-            platform <select class = "form-control" name="platform_id">
+            Platform <select class = "form-control" name="platform_id">
                 <option value="">Select One</option>
                 <?php getPlatform(); ?>
             </select> <br />

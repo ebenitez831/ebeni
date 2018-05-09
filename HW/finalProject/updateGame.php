@@ -105,7 +105,7 @@
                 Rating: <input type="text" class = "form-control" value = "<?=$game['gameRating']?>" name="gameRating"><br>
                 Game name: <input type="text" class = "form-control" value = "<?=$game['game_name']?>" name="game_name"><br>
                 Release Date: <input type="text" class = "form-control" value = "<?=$game['release_date']?>" name="release_date"><br>
-                platform <select class = "form-control" name="platform_id">
+                Platform <select class = "form-control" name="platform_id">
                     <option value="">Select One</option>
                     <?php getPlatform($game['platform_id']); ?>
                 </select> <br />
