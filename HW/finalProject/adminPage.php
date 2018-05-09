@@ -84,7 +84,7 @@ function displayAllProducts(){
         <br />
         
         <br />
-        <strong> Products: </strong> <br />
+        <strong> Games: </strong> <br />
         
         <?php $records=displayAllProducts();
             foreach($records as $record) {
